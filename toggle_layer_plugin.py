@@ -12,7 +12,7 @@ SETTINGS_KEY = "toggle_layer/mappings"  # JSON list: [{"key": "...", "layer": ".
 class ToggleLayerPlugin:
     def __init__(self, iface):
         self.iface = iface
-        self.menu_name = "Toggle Layer"
+        self.menu_name = "Layer Toggle Hotkeys"
         self.settings_action = None
         self.mapping_actions = []  # list[QAction]
         self._dlg = None
