@@ -1,0 +1,30 @@
+[general]
+name=Layer Toggle Hotkeys
+qgisMinimumVersion=3.16
+description=Toggle visibility of layers with a keypress
+version=1.0.0
+author=Samuel Kultz (Kultz Engenharia)
+email=samkultz@me.com
+
+about=Create hotkeys to toggle layers on/off
+
+  UI: table with two columns (Key, Layer) and buttons to add/remove rows.
+  You can use same key to toggle multiple layers
+
+tracker=https://github.com/<YOU>/<REPO>/issues
+repository=https://github.com/<YOU>/<REPO>
+
+hasProcessingProvider=no
+tags=shortcuts,hotkeys,layers,visibility
+homepage=https://github.com/<YOU>/<REPO>
+category=Productivity
+icon=icon.png
+experimental=False
+deprecated=False
+server=False
+
+changelog=1.0.0
+  - Initial release
+  - Table-based hotkey mapping
+  - Duplicate-key grouping (one hotkey toggles multiple layers)
+  - Shortcut conflict detection
