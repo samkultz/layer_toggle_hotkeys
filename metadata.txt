@@ -11,8 +11,10 @@ about=Create hotkeys to toggle layers on/off
   UI: table with two columns (Key, Layer) and buttons to add/remove rows.
   You can use same key to toggle multiple layers
 
-tracker=https://github.com/<YOU>/<REPO>/issues
-repository=https://github.com/<YOU>/<REPO>
+
+tracker=https://github.com/samkultz/layer_toggle_hotkeys/issues
+repository=https://github.com/samkultz/layer_toggle_hotkeys
+homepage=https://github.com/samkultz/layer_toggle_hotkeys
 
 hasProcessingProvider=no
 tags=shortcuts,hotkeys,layers,visibility
